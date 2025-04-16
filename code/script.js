@@ -3,8 +3,16 @@
 // Step 1 - Welcome and introduction
 // Your code goes here
 alert(
-  `Welcome to our Javascript Pizzeria. Ready to Start? - Click 'OK' to begin.`
+  `Welcome to Mills Pizza House. Let's go ahead with your order. Ready to Start? - Click 'OK' to begin.`
 )
+{
+const name = prompt("Please enter your name to start with your order");
+if(name != null){
+  alert(
+    `Hello ${name}`);
+}
+}
+
 
 // Step 2 - Food choice
 // Your code goes here
